@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WakeWise</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="contentWrapper">
+    <header>
+        <!--Home button, top image-->        <!--Login search cart menu-->
+        <nav>
+            <a href="#"><img id="homeButton" src="Assets/WakeboardSilhouetteRaley150x50.png" alt="wakeboarding silhouette"></a>
+            <ul>
+                <li><a href="#" id="login">Login/Register</a></li>
+                <li><input type="search" id="search" placeholder="Search"></li>
+                <li id="cart"><a href="#"><img src="Assets/cart.png" alt="shopping cart"></a></li>
+            </ul>
+        </nav>
+        <section id="nameSocialContainer">
+            <!--Store Name-->
+            <div id="storeName">
+                <h1>WakeWise Board Store</h1>
+            </div>
+            <!--Social media nav bar-->
+            <div class="containerStyle" id="socialNav">
+                <ul>
+                    <li><a href="#"><img src="Assets/facebook_icon.png" alt="facebook icon"></a></li>
+                    <li><a href="#"><img src="Assets/twitter_icon.png" alt="twitter icon"></a></li>
+                    <li><a href="#"><img src="Assets/insta_icon.png" alt="intagram icon"></a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+        <section id="sidebars">
+            <!-- SideBar1, Product sizing form (right)-->
+            <form class="containerStyle" id="sizingForm">
+                <h2>Product sizing form</h2>
+                <p><input type="number" placeholder="Height (in)"></p>
+                <p><input type="number" placeholder="Weight (lbs)"></p>
+                <p><input type="number" placeholder="Shoe size"></p>
+                <p id="skillLevel">Skill Level</p>
+                <p><input type="radio" name="skill" id="beginner" value="beginnner"><label for="beginner">Beginner</label></p>
+                <p><input type="radio" name="skill" id="intermediate" value="intermediate"><label for="intermediate">Intermediate</label></p>
+                <p><input type="radio" name="skill" id="advanced" value="advanced"><label for="advanced">Advanced</label></p>
+                <p><button type="submit">Submit</button></p>
+            </form>
+    
+            <div class="containerStyle" id="news">
+            <!--SideBar2, Articles News (right)-->
+                <h2>What's the Word</h2>
+                <h3>Most Recent News.  DateTime</h3>
+                <p>This is some text about the most recent news in the world of watersports, in particular wakeboarding.  Kamala Harris just landed the first 1080 pride slide, placing her a second place podium position behind Joe Biden.  Jimmie Johnson drove the boat for the competition. Some would say he drove way too fast!</p>
+                <h3>Kind of Recent News. DateTime</h3>
+                <p>Whirley-Bird 360 invert switch dock start flat spin. tail grab boardslide corked tweaked off axis bone wrapped mobius 540. lifejacket ballast platform deepwater start cable park.</p>
+                <h3>Old News.  Datetime</h3>
+                <p>Lessons for wakesurfing started 2 years ago.  Sorry if you missed the boat, this article is old.  I don't even know why its on this website anymore.  I guess nothing new has really happened in the last year and a half. Oh well, go out and have some fun. Peace.</p>
+                <p id="bottom">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim labore magni non vero, molestiae sit aspernatur sequi ea aliquid incidunt velit, sed amet deserunt id asperiores nobis blanditiis ipsum voluptates.</p>
+            </div>
+        </section>
+    <section id="main">
+        <div class="containerStyle" id="featured">
+            <!--Featured brand-->
+            <div id="featuredPic">
+                <a href="#"><img src="Assets/ProductHighlight450x250.jpg" alt="wakeboard"></a>
+            </div>
+            <div id="featuredDescription">
+                <h3>Featured Product</h3>
+                <p>Hottest new product on the market right now.  Must purchase while supplies last. Top pro model, rider is winning all the competitions. Smooth lines, sick cuts, biggest airs guaranteed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore facere eveniet sunt odio?</p>
+                <br>
+                <p>"I ride with this equipment and its how I beat all the competition" - Professional Rider quote.</p>
+                <button id="shopNowButton" type="button">Shop Now!</button>
+            </div>
+        </div>
+        <div id="productTiles">
+            <!--6 Product types -->
+            <div class="productTypes">
+                <a href="#"><img src="Assets/wakeboardOG03450x255.jpg" alt="wakeboard"/></a>
+                <div class="centeredText">Wakeboards</div>
+            </div>
+            <div class="productTypes">
+                <a href="#"><img src="Assets/Bindings450x255.jpg" alt="bindings"/></a>
+                <div class="centeredText">Bindings</div>
+            </div>
+            <div class="productTypes">
+                <a href="#"><img src="Assets/WakeskateOG01450x255.jpg" alt="wakeskate"/></a>
+            <div class="centeredText">Wakeskates</div>
+            </div>
+            <div class="productTypes">
+                <a href="#"><img src="Assets/Surfboards450x255.png" alt="surfboard"/></a>
+            <div class="centeredText">Surfboards</div>
+            </div>
+            <div class="productTypes">
+                <a href="#"><img src="Assets/gear450x255.jpg" alt="rope"/></a>
+                <div class="centeredText">Gear</div>
+            </div>
+            <div class="productTypes">
+                <a href="#"><img src="Assets/speaker450x255.jpg" alt="speaker"/></a>
+                <div class="centeredText">Boat</div>
+            </div>
+        </div>
+        <div class="containerStyle" id="learningCenter">
+            <!--Learning Center-->
+            <h2>Learning Center</h2>
+            <div class="learningBlock" id="how to">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/F8Vosdtdc1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="learningBlock" id="product guides">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/gLpnYLn4s9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="learningBlock" id="newsletter">
+                <h3>Newsletter Sign-Up</h3>
+                <p><input type="email" placeholder="Email"></p>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <footer class="containerStyle">
+        <!--About Contact Legal-->
+        <ul>
+            <li class="vertBar"><a href="#">About Us</a></li>
+            <li class="vertBar"><a href="#">Contact</a></li>
+            <li class="vertBar"><a href="#">Privacy Policy</a></li>
+            <li class="vertBar"><a href="#">Terms of Use</a></li>
+            <li class="vertBar">Page Author: jread-ipsum</li>
+            <li id="copy">&copy;2021</li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
